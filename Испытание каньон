@@ -1,3 +1,5 @@
+// Выйди из лабиринта, переместившись на отметку X.
+// Постарайся собрать как можно больше монет.
 var enemy1 ="Treasure Chest";
 hero.attack("Treasure Chest");
 hero.moveUp();
@@ -28,4 +30,16 @@ hero.moveLeft();
 hero.moveUp();
 var enemy = hero.findNearestEnemy();
 hero.attack(enemy);
-    hero.moveLeft(3);
+    hero.moveLeft(2);
+        hero.moveRight(2);
+        hero.moveDown();
+hero.moveDown();
+hero.moveLeft();
+hero.moveDown();
+hero.moveLeft();
+hero.moveUp();
+hero.moveLeft();
+var enemy = hero.findNearestEnemy();
+hero.attack(enemy);
+hero.moveLeft(1);
+hero.moveUp();
