@@ -9,37 +9,17 @@ hero.attack("Door");
 hero.moveUp(2);
 hero.moveDown(2);
 hero.moveLeft(3);
-    hero.moveUp(2);
-   hero.moveDown();
-    hero.moveRight();
+while(true) {
+     hero.moveUp(2);
+      hero.moveLeft();
+        var enemy = hero.findNearestEnemy();
+     hero.attack(enemy);
+     hero.moveLeft();
+       hero.moveRight(2);
+       hero.moveDown();
+       hero.moveRight();
+       
     hero.moveUp();
     hero.moveRight();
+}
     
-hero.moveUp(2);
-   hero.moveDown();
-    hero.moveRight();
-    hero.moveUp();
-    hero.moveRight();
-    
-hero.moveUp(2);
-   hero.moveDown();
-    hero.moveRight();
-    hero.moveUp();
-hero.moveDown();
-hero.moveLeft();
-hero.moveUp();
-var enemy = hero.findNearestEnemy();
-hero.attack(enemy);
-    hero.moveLeft(2);
-        hero.moveRight(2);
-        hero.moveDown();
-hero.moveDown();
-hero.moveLeft();
-hero.moveDown();
-hero.moveLeft();
-hero.moveUp();
-hero.moveLeft();
-var enemy = hero.findNearestEnemy();
-hero.attack(enemy);
-hero.moveLeft(1);
-hero.moveUp();
