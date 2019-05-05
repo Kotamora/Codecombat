@@ -1,0 +1,31 @@
+var enemy1 ="Treasure Chest";
+hero.attack("Treasure Chest");
+hero.moveUp();
+hero.moveDown();
+hero.moveRight();
+hero.attack("Door");
+hero.moveUp(2);
+hero.moveDown(2);
+hero.moveLeft(3);
+    hero.moveUp(2);
+   hero.moveDown();
+    hero.moveRight();
+    hero.moveUp();
+    hero.moveRight();
+    
+hero.moveUp(2);
+   hero.moveDown();
+    hero.moveRight();
+    hero.moveUp();
+    hero.moveRight();
+    
+hero.moveUp(2);
+   hero.moveDown();
+    hero.moveRight();
+    hero.moveUp();
+hero.moveDown();
+hero.moveLeft();
+hero.moveUp();
+var enemy = hero.findNearestEnemy();
+hero.attack(enemy);
+    hero.moveLeft(3);
